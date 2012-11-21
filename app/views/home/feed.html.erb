@@ -1,0 +1,8 @@
+<h1>Home#feed</h1>
+<p>Find me in app/views/home/feed.html.erb</p>
+
+<% @data.each do |d| %>
+  
+  <%= image_tag d.images[:low_resolution].url %>
+  
+  <% end %> 
